@@ -81,7 +81,7 @@ def winner(board)
 
   string=won?(board)
   if (string!=false)
-    return string[0]
+    return board[string[0]]
   else
     return nil
   end
